@@ -19,7 +19,7 @@ I have also done myself some surveys at various meetups in Los Angeles e.g.
 (that is for data munging, data visualization and modeling/machine learning) and
 [tools for machine learning](https://github.com/szilard/survey-ml-tools) (just for the machine learning part). 
 
-In all these surveys R and Python are at the top (and absolutely dominate at meetups, which are frequented 
+In all these surveys R and Python are at the top in usage (and absolutely dominate at meetups, which are frequented 
 by people using mostly open source tools). R has perhaps some edge when considering the entire data analysis
 workflow, and maybe Python has a slight advantage when considering only the machine learning part.
 Of course, all these surveys have biases etc. and one should take the results with caveats.
@@ -27,7 +27,7 @@ Of course, all these surveys have biases etc. and one should take the results wi
 There are countless blog posts about R vs Python for data science (based on features, usage etc.), 
 some of them giving the impression of a war.
 I do not intend to add to the flames, I just looked at some usage data and show the results. The results seem
-to align with the surveys in the sense that there is no clear winner in popularity.
+to align well with the surveys in the sense that there is no clear winner in popularity.
 
 
 ## R vs Python (and vs Julia) in Kaggle scripts
