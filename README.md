@@ -132,4 +132,28 @@ Kaggle users vs machine learning professionals, Kaggle scripts (sharing) vs
 Kaggle usage in competitions, small sample etc. etc. But I still think it gives 
 a rough idea. You are welcome to submit results if you have any better.
 
+### UPDATE: Some ideas for data cleaning:
+
+## R scripts by user:
+
+```
+cat url-r.txt | sed 's/.*kaggle.com\///' | sed 's/\/.*//' | sort | uniq -c | sort -nr | head 
+
+     68 benhamner
+     17 dchudz
+     12 domcastro
+      8 users
+      8 unbingo
+      8 pchitta
+      7 sinaasappel
+      7 sandipb
+      7 mlandry
+      7 colinpriest
+```
+
+One could eliminate the top 2 who btw are Kaggle employees.
+
+
+
+
 
