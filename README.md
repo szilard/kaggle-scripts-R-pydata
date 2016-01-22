@@ -106,7 +106,7 @@ Here are the most popular R packages:
      10 caTools
 ```
 
-The most popular R ML packages are:
+of which the most popular R *machine learning* packages are:
 
 ```
     125 randomForest
