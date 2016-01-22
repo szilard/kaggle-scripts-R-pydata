@@ -1,10 +1,10 @@
 
-Kaggle scripts: R vs pydata + most used R and Python packages for Machine Learning
+Kaggle scripts: R vs pydata + most popular R and Python packages for Machine Learning
 =============================================================
 
 Kaggle scripts are a way Kaggle users can share their code. By analyzing these scripts
-as data I hope to get some insights in what tools (R and Python packages) people are using the most
-for machine learning.
+as data I hope to get some insights in what tools (R and Python packages) are the most popular
+(for machine learning).
 
 
 ## Tools for Machine Learning
