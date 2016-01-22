@@ -114,7 +114,7 @@ TODO: Python most popular modules
 How good are these results in describing popularity of tools among machine learning
 practitioners? There are a lot of approximations/proxies/possible biases here, e.g.
 Kaggle users vs machine learning professionals, Kaggle scripts (sharing) vs 
-Kaggle usage in competitions, small sample etc. etc. But I still think it still gives 
+Kaggle usage in competitions, small sample etc. etc. But I still think it gives 
 a rough idea. You are welcome to submit results if you have better.
 
 
