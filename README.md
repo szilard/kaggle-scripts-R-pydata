@@ -106,6 +106,21 @@ Here are the most popular R packages:
      10 caTools
 ```
 
+The most popular R ML packages are:
+
+```
+    125 randomForest
+    108 xgboost
+    102 caret
+     34 h2o
+     29 rpart
+     22 e1071
+     16 gbm
+```
+
+
+
+
 TODO: Python most popular modules
 
 
