@@ -118,8 +118,8 @@ of which the most popular R *machine learning* packages are:
      16 gbm
 ```
 
-(xgboost and h2o are not R exclusively, xgboost is essentially a C++ library
-with R/Pythos/etc. APIs and h2o is launching a separate Java process that
+(xgboost and h2o are not R packages exclusively, xgboost is a C++ library
+with R/Python/etc. APIs and h2o is launching a separate Java process that
 can be interacted with from R/Python/etc.)
 
 
