@@ -134,7 +134,7 @@ a rough idea. You are welcome to submit results if you have any better.
 
 ### UPDATE: Some ideas for data cleaning:
 
-## R scripts by user:
+#### R scripts by user:
 
 ```
 cat url-r.txt | sed 's/.*kaggle.com\///' | sed 's/\/.*//' | sort | uniq -c | sort -nr | head 
