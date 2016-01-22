@@ -151,7 +151,7 @@ cat url-r.txt | sed 's/.*kaggle.com\///' | sed 's/\/.*//' | sort | uniq -c | sor
       7 colinpriest
 ```
 
-One could eliminate the top 2 who btw are Kaggle employees.
+One could eliminate the top 1 or 2 who btw are Kaggle employees.
 
 
 
