@@ -11,9 +11,9 @@ as data I hope to get some insights in what tools (R and Python packages) are th
 
 There are various surveys on tools used for data analysis / data science / data mining and even just
 machine learning. Most notably 
-the [KDnuggets survey](http://www.kdnuggets.com/polls/2015/analytics-data-mining-data-science-software-used.html),
-the [Rexer Analytics survey](http://www.rexeranalytics.com/Data-Miner-Survey-Results-2013.html) and
-the [O'Reilly Radar survey](http://radar.oreilly.com/2015/09/2015-data-science-salary-survey.html).
+the [KDnuggets surveys](http://www.kdnuggets.com/polls/2015/analytics-data-mining-data-science-software-used.html),
+the [Rexer Analytics surveys](http://www.rexeranalytics.com/Data-Miner-Survey-Results-2013.html) and
+the [O'Reilly Radar surveys](http://radar.oreilly.com/2015/09/2015-data-science-salary-survey.html).
 I have also done myself some surveys at various meetups in Los Angeles e.g. 
 [tools for data science](http://datascience.la/data-science-toolbox-survey-results-surprise-r-and-python-win/)
 (that is for data munging, data visualization and modeling/machine learning) and
@@ -36,8 +36,8 @@ There are a lot of proxies/approximations/possible biases here. The usually cave
 
 You can download a list a Kaggle scripts from https://www.kaggle.com/scripts. You can choose a language
 e.g. R/Python and choose to sort by votes, e.g. https://www.kaggle.com/scripts?sortBy=votes&language=R.
-You will get only a few top scripts, but you can scroll for more. I'm getting only those with `votes>0`
-and saving the results for each language (manually) as HTML files. You could automate this if you want.
+You will get only a few top scripts, but you can scroll for more. I'm getting only those with `votes > 0`
+and saving the results for each language (manually) as an HTML file. You could automate this if you want.
 
 I've got files for R, R-markdown, Python and Julia. I've combined R and R-markdown in one group. I've
 [calculated](1-RvsPy-table.sh) the total number of scripts, votes and views by language:
@@ -49,7 +49,7 @@ Python |    945   |   4558   |  1095967
 R+Rmd  |    975   |   5212   |  1223700
 
 
-## Most used R/Python packages/modules
+## Most popular R/Python packages/modules
 
 You can get the list of R/Python scripts, download them and look for `library` or `required` (R) 
 and `import` (Python) and see which packages are the most popular. Here is a 
