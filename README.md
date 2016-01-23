@@ -91,21 +91,6 @@ website).
      15 gridExtra
      14 methods
      14 ggvis
-     14 Hmisc
-     12 rjson
-     12 jsonlite
-     12 car
-     11 zoo
-     11 sqldf
-     11 party
-     11 doMC
-     11 SnowballC
-     11 MASS
-     10 tidyr
-     10 reshape
-     10 forecast
-     10 doParallel
-     10 caTools
 ```
 
 of which the most popular R *machine learning* packages are:
@@ -158,38 +143,7 @@ can be interacted with from R/Python/etc.
      15 string
      14 hep_ml
      13 pylab
-     13 operator
-     13 itertools
-     13 gzip
-     10 pickle
-     10 mne
-     10 __future__
-      9 warnings
-      9 subprocess
-      9 sqlite3
-      9 joblib
-      8 multiprocessing
-      8 evaluation
-      7 ml_metrics
-      7 logging
-      7 io
-      6 skimage
-      6 ances
-      6 ance
-      5 neon
-      5 copy
-      5 contextlib
-      4 mpl_toolkits
-      4 gc
-      4 functools
-      3 timeit
-      3 tensorflow
-      3 statsmodels
-      3 pprint
-      3 pip
-      3 patsy
-      3 codecs
-```
+ ```
 
 of which the most popular Python *machine learning* libraries:
 ```
@@ -200,13 +154,11 @@ of which the most popular Python *machine learning* libraries:
      31 nolearn
      29 keras
      28 theano
-     14 hep_ml
-      3 tensorflow
 ```
 
 xgboost is a C++ library with R/Python/etc. API as already mentioned at the R section. 
-nltk is a text processing library with some ML. lasagne, nolearn, keras, theano and 
-tensorflow are mainly for deep learning.
+nltk is a text processing library with some ML. lasagne, nolearn, keras, theano (and 
+tensorflow 3 uses) are mainly for deep learning.
 
 
 ## Discussion
