@@ -49,14 +49,16 @@ Python |    945   |   4558   |  1095967
 R+Rmd  |    975   |   5212   |  1223700
 
 
-## Most popular R/Python packages/modules
+
+## Most popular R/Python packages/libraries
 
 You can get the list of R/Python scripts, download them and look for `library` or `required` (R) 
 and `import` (Python) and see which packages are the most popular. Here is a 
 [script](2-packages.sh) that does that (please keep `sleep` as in the script to be gentle on Kaggle's
 website).
 
-Here are the most popular R packages:
+
+#### Most popular R packages:
 
 ```
     344 readr
@@ -118,13 +120,94 @@ of which the most popular R *machine learning* packages are:
      16 gbm
 ```
 
-(xgboost and h2o are not R packages exclusively, xgboost is a C++ library
-with R/Python/etc. APIs and h2o is launching a separate Java process that
-can be interacted with from R/Python/etc.)
+xgboost and h2o are not R packages exclusively: xgboost is a C++ library
+with R/Python/etc. APIs, h2o is launching a separate Java process that
+can be interacted with from R/Python/etc.
 
 
+#### Most popular Python libraries:
 
-TODO: Python most popular modules
+```
+    531 numpy
+    498 pandas
+    447 sklearn
+    187 matplotlib
+    156 xgboost
+     77 re
+     68 scipy
+     68 os
+     64 seaborn
+     60 math
+     54 nltk
+     52 datetime
+     47 csv
+     43 bs4
+     40 zipfile
+     34 sys
+     32 lasagne
+     31 nolearn
+     30 time
+     29 keras
+     28 theano
+     27 random
+     24 glob
+     23 haversine
+     19 collections
+     18 json
+     17 PIL
+     15 string
+     14 hep_ml
+     13 pylab
+     13 operator
+     13 itertools
+     13 gzip
+     10 pickle
+     10 mne
+     10 __future__
+      9 warnings
+      9 subprocess
+      9 sqlite3
+      9 joblib
+      8 multiprocessing
+      8 evaluation
+      7 ml_metrics
+      7 logging
+      7 io
+      6 skimage
+      6 ances
+      6 ance
+      5 neon
+      5 copy
+      5 contextlib
+      4 mpl_toolkits
+      4 gc
+      4 functools
+      3 timeit
+      3 tensorflow
+      3 statsmodels
+      3 pprint
+      3 pip
+      3 patsy
+      3 codecs
+```
+
+of which the most popular Python *machine learning* libraries:
+```
+    447 sklearn
+    156 xgboost
+     54 nltk
+     32 lasagne
+     31 nolearn
+     29 keras
+     28 theano
+     14 hep_ml
+      3 tensorflow
+```
+
+xgboost is a C++ library with R/Python/etc. API as already mentioned at the R section. 
+nltk is a text processing library with some ML. lasagne, nolearn, keras, theano and 
+tensorflow are mainly for deep learning.
+
 
 
 ## Discussion
@@ -136,6 +219,7 @@ Kaggle usage in competitions, small sample etc. etc. But I still think it gives
 a rough idea. You are welcome to submit results 
 (as [github issue](https://github.com/szilard/kaggle-scripts-R-pydata/issues))
 if you have any better.
+
 
 ### UPDATE: Some ideas for data cleaning:
 
