@@ -209,19 +209,25 @@ nltk is a text processing library with some ML. lasagne, nolearn, keras, theano 
 tensorflow are mainly for deep learning.
 
 
-
 ## Discussion
 
-How good are these results in describing popularity of tools among machine learning
-practitioners? There are a lot of approximations/proxies/possible biases here, e.g.
+...
+
+
+
+## Conclusion
+
+How good are these results in describing **popularity of tools among machine learning
+practitioners**? There are a lot of approximations/proxies/possible biases here, e.g.
 Kaggle users vs machine learning professionals, Kaggle scripts (sharing) vs 
-Kaggle usage in competitions, small sample etc. etc. But I still think it gives 
+Kaggle users' usage in projects/competitions, small sample etc. etc. But I still think it gives 
 a rough idea. You are welcome to submit results 
 (as [github issue](https://github.com/szilard/kaggle-scripts-R-pydata/issues))
-if you have any better.
+if you know any better.
 
 
-### UPDATE: Some ideas for data cleaning:
+
+## P.S. (Ideas/TODOs etc)
 
 #### R scripts by user:
 
