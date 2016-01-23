@@ -158,7 +158,7 @@ of which the most popular Python *machine learning* libraries:
 
 xgboost is a C++ library with R/Python/etc. API as already mentioned at the R section. 
 nltk is a text processing library with some ML. lasagne, nolearn, keras, theano (and 
-tensorflow 3 uses) are mainly for deep learning.
+tensorflow with 3 uses) are mainly for deep learning.
 
 
 ## Discussion
@@ -172,10 +172,10 @@ tensorflow 3 uses) are mainly for deep learning.
 How good are these results in describing **popularity of tools among machine learning
 practitioners**? There are a lot of approximations/proxies/possible biases here, e.g.
 Kaggle users vs machine learning professionals, Kaggle scripts (sharing) vs 
-Kaggle users' usage in projects/competitions, small sample etc. etc. But I still think it gives 
-a rough idea. You are welcome to submit results 
-(as [github issue](https://github.com/szilard/kaggle-scripts-R-pydata/issues))
-if you know any better.
+Kaggle users' usage in projects/competitions, small sample etc. etc. But I think this
+short study still gives a rough idea of usage. You are welcome to submit results 
+(as [github issues](https://github.com/szilard/kaggle-scripts-R-pydata/issues))
+if you do any better.
 
 
 
