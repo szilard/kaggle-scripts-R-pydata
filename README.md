@@ -179,28 +179,3 @@ if you know any better.
 
 
 
-## P.S. (Ideas/TODOs etc)
-
-#### R scripts by user:
-
-```
-cat url-r.txt | sed 's/.*kaggle.com\///' | sed 's/\/.*//' | sort | uniq -c | sort -nr | head 
-
-     68 benhamner
-     17 dchudz
-     12 domcastro
-      8 users
-      8 unbingo
-      8 pchitta
-      7 sinaasappel
-      7 sandipb
-      7 mlandry
-      7 colinpriest
-```
-
-One could eliminate the top 1 or 2 who btw are Kaggle employees.
-
-
-
-
-
