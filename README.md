@@ -42,7 +42,7 @@ and saving the results for each language (manually) as an HTML file. You could a
 I've got files for R, R-markdown, Python and Julia. I've combined R and R-markdown in one group. I've
 [calculated](1-RvsPy-table.sh) the total number of scripts, votes and views by language:
 
-       |  scripts |  votes   |  views
+Lang   |  scripts |  votes   |  views
 -------|----------|----------|----------
 Julia  |    30    |    50    |    11059
 Python |    945   |   4558   |  1095967
